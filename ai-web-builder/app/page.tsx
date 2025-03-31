@@ -1,19 +1,17 @@
 'use client';
-import { useState } from "react";
-import ChatPanel from "../components/ChatPanel";
-import PreviewPanel from "../components/PreviewPanel";
+import { useState } from 'react';
+import ChatPanel from '../components/ChatPanel';
+import PreviewPanel from '../components/PreviewPanel';
 
-export default function Home() {
-  const [code, setCode] = useState(`<html><body><h1 style="text-align:center;">👋 Waiting for your prompt...</h1></body></html>`);
+export default function HomePage() {
+  const [code, setCode] = useState<string>('');
 
-  const handlePrompt = (prompt) => {
-    // TEMP: Replace with AI code gen later
-    const sample = `<html><body><h1 style="text-align:center;">Generated app for: "${prompt}"</h1></body></html>`;
-    setCode(sample);
+  const handlePrompt = (generatedCode: string) => {
+    setCode(generatedCode);
   };
 
   return (
-    <div className="h-screen grid grid-cols-2">
+    <div className="h-screen grid grid-cols-1 lg:grid-cols-2 bg-gray-50">
       <ChatPanel onSubmitPrompt={handlePrompt} />
       <PreviewPanel code={code} />
     </div>

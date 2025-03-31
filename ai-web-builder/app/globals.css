@@ -7,6 +7,11 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+/* Hide the annoying Next.js dev overlay icon */
+#__next-build-watcher,
+.nextjs-dev-overlay {
+  display: none !important;
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -24,6 +29,6 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  /* color: var(--foreground); */
   font-family: Arial, Helvetica, sans-serif;
 }
