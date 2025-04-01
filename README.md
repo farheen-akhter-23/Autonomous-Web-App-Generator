@@ -1,19 +1,12 @@
 # Autonomous-Web-App-Generator
 
+<img width="1459" alt="Screenshot 2025-03-31 at 1 38 25 PM" src="https://github.com/user-attachments/assets/b6350929-78ca-47b2-a9e7-445e6ebbaaeb" />
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]
-
-(https://opensource.org/licenses/MIT) 
-[![React]
-
-(https://img.shields.io/badge/React-18.2+-61DAFB.svg)](https://reactjs.org)
-[![Next.js]
-
-(https://img.shields.io/badge/Next.js-14.0+-000000.svg)](https://nextjs.org)
 
 An AI-powered tool that generates production-ready React components with Tailwind CSS based on natural language prompts.
 
 ## ✨ Features
+
 - **AI-Powered Generation**: Convert text prompts to functional React code
 - **Live Preview**: Real-time component rendering
 - **One-Click Export**: Download generated code as ZIP
@@ -22,12 +15,8 @@ An AI-powered tool that generates production-ready React components with Tailwin
 
 ## 🎥 Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-*(Click image to watch video demo)*
+https://github.com/user-attachments/assets/ad3c7b6a-5a3a-4bb2-a2e5-905d1757b7e1
 
-## 📸 Screenshot
-
-![Auto Code Generator in Action](./screenshot.png)
 
 ## 🛠️ Tech Stack
 
